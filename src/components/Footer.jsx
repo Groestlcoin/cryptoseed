@@ -19,7 +19,7 @@ class Footer extends React.Component {
 			color: muiTheme.palette.primary3Color
 		};
 
-		this.bitcoinAddr = '1LPCKLyrqFRjQ8yZRyBdAo3yr5Cx6Sb37F';
+		this.bitcoinAddr = 'FWN1qdiRrymSR6jbpbanLYqZpjkEaZouHN';
 
 		this.state = {
 			qrData: qr.imageSync(this.bitcoinAddr)
@@ -29,7 +29,7 @@ class Footer extends React.Component {
 	}
 
 	handleGithubLink() {
-		shell.openExternal('https://github.com/anderson-arlen');
+		shell.openExternal('https://groestlcoin.org');
 	}
 
 	handleShowQrCode() {
@@ -50,7 +50,7 @@ class Footer extends React.Component {
 				<div className="row center-xs">
 					<div className="col-xs">
 						<div style={{color: muiTheme.palette.primary3Color, margin: 10}}>
-							Bitcoin Donations welcome:
+							Groestlcoin Donations welcome:
 
 						</div>
 						<img src={`data:image/png;base64,${qrData.toString('base64')}`} style={{width: 250, height: 250}}/>
@@ -64,7 +64,7 @@ class Footer extends React.Component {
 				<div className="row center-xs">
 					<a href="#" onClick={this.handleGithubLink}>
 						<div className="row center-xs middle-xs">
-							<CodeIcon style={this.iconStyle}/>&nbsp;by Arlen Anderson
+							<CodeIcon style={this.iconStyle}/>&nbsp;by Groestlcoin Developers
 						</div>
 					</a>
 				</div>

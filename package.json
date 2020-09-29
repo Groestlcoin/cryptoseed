@@ -1,7 +1,7 @@
 {
-  "name": "CryptoSeed",
+  "name": "GroestlSeed",
   "version": "1.1.0",
-  "description": "Secure your bitcoin recovery seed.",
+  "description": "Secure your groestlcoin recovery seed.",
   "main": "main.js",
   "scripts": {
     "start": "webpack --config webpack-config.js --progress --inline --colors && electron .",
@@ -11,10 +11,10 @@
     "pack:windows": "electron-builder build --win --x64",
     "pack:osx": "electron-builder build --mac zip --x64"
   },
-  "repository": "git@github.com:anderson-arlen/cryptoseed.git",
+  "repository": "git@github.com:groestlcoin/cryptoseed.git",
   "keywords": [
     "electron",
-    "bitcoin",
+    "groestlcoin",
     "encryption",
     "bip32",
     "recovery",
@@ -22,7 +22,7 @@
     "phrase",
     "words"
   ],
-  "author": "Arlen Anderson <anderson.arlen+npm@gmail.com>",
+  "author": "Groestlcoin Developers <groestlcoin@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "electron": "^1.4.1"

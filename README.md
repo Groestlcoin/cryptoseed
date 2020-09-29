@@ -1,16 +1,16 @@
-![logo](https://raw.githubusercontent.com/anderson-arlen/cryptoseed/master/build/icons/32x32.png)CryptoSeed
+![logo](https://raw.githubusercontent.com/Groestlcoin/cryptoseed/master/build/icons/32x32.png)GroestlSeed
 ===================
-### Secure your bitcoin recovery seed.
+### Secure your groestlcoin recovery seed.
 
-Writing down your bitcoin recovery seeds on plain paper might be solid electronic security, but terrible physical security. Not everyone has a safe they can keep stuff like that in. CryptoSeed encrypts your recovery seed with AES256 and encodes the encrypted data into a QR Code which you can print out and keep anywhere.
+Writing down your groestlcoin recovery seeds on plain paper might be solid electronic security, but terrible physical security. Not everyone has a safe they can keep stuff like that in. GroestlSeed encrypts your recovery seed with AES256 and encodes the encrypted data into a QR Code which you can print out and keep anywhere.
 
 Why pay for solutions that still leave your seed in plain text when you can print out and laminate a business card with your encrypted recovery seed on it for free. You could keep a copy in your wallet, or in a safe, or even hide it in plain sight.
 
-![Encryption Screenshot](https://raw.githubusercontent.com/anderson-arlen/cryptoseed/master/encrypt.png)
+![Encryption Screenshot](https://raw.githubusercontent.com/Groestlcoin/cryptoseed/master/encrypt.png)
 
-When it comes time to use your recovery seed, just scan the QR Code with your phone and decrypt it with CryptoSeed.
+When it comes time to use your recovery seed, just scan the QR Code with your phone and decrypt it with GroestlSeed.
 
-![Decryption Screenshot](https://raw.githubusercontent.com/anderson-arlen/cryptoseed/master/decrypt.png)
+![Decryption Screenshot](https://raw.githubusercontent.com/Groestlcoin/cryptoseed/master/decrypt.png)
 
 ----------
 
@@ -32,17 +32,17 @@ Installation
 ------------
 
 #### Prebuilt packages
-[Ubuntu/Debian (installer)](https://github.com/anderson-arlen/cryptoseed/releases/download/v1.1.0/CryptoSeed_1.1.0_amd64.deb)  
-[Linux (zip)](https://github.com/anderson-arlen/cryptoseed/releases/download/v1.1.0/CryptoSeed_1.1.0_linux_amd64.zip)  
-[Windows x64 (installer)](https://github.com/anderson-arlen/cryptoseed/releases/download/v1.1.0/CryptoSeed.Setup.1.1.0.exe)  
-[Windows x64 (zip)](https://github.com/anderson-arlen/cryptoseed/releases/download/v1.1.0/CryptoSeed_1.1.0_win64.zip)  
-[Mac OSX x64 (zip)](https://github.com/anderson-arlen/cryptoseed/releases/download/v1.1.0/CryptoSeed-1.1.0-mac.zip)
+[Ubuntu/Debian (installer)](https://github.com/Groestlcoin/cryptoseed/releases/download/v1.1.0/GroestlSeed_1.1.0_amd64.deb)  
+[Linux (zip)](https://github.com/Groestlcoin/cryptoseed/releases/download/v1.1.0/GroestlSeed_1.1.0_linux_amd64.zip)  
+[Windows x64 (installer)](https://github.com/Groestlcoin/cryptoseed/releases/download/v1.1.0/GroestlSeed.Setup.1.1.0.exe)  
+[Windows x64 (zip)](https://github.com/Groestlcoin/cryptoseed/releases/download/v1.1.0/GroestlSeed_1.1.0_win64.zip)  
+[Mac OSX x64 (zip)](https://github.com/Groestlcoin/cryptoseed/releases/download/v1.1.0/GroestlSeed-1.1.0-mac.zip)
 
-[View releases](https://github.com/anderson-arlen/cryptoseed/releases)
+[View releases](https://github.com/Groestlcoin/cryptoseed/releases)
 
 #### Development install
 ```shell
-	git clone git@github.com:anderson-arlen/cryptoseed.git
+	git clone git@github.com:groestlcoin/cryptoseed.git
 	cd cryptoseed
 	npm install && npm start
 ```
@@ -94,9 +94,3 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.**
-
--------------------------------------
-
-Donate
-------
-Bitcoin: 1LPCKLyrqFRjQ8yZRyBdAo3yr5Cx6Sb37F
