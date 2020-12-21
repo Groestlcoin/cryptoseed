@@ -22,7 +22,7 @@ Your recovery seed is encrypted with the [Cipher Block Chaining (CBC)](https://e
 
 **If you forget your password, your seed is lost. There is no recovery.**
 
-Whenever you type anything on a computer connected to the internet, you run the inherent risk of your information being exposed by keyloggers, viruses, and other attack vectors. This risk can be mitigated by using an offline computer or by simply typing in your recovery phrase out of order and rearranging them with the mouse afterword. Another good option would be to use a distro like [Qubes](https://www.qubes-os.org/).
+Whenever you type anything on a computer connected to the internet, you run the inherent risk of your information being exposed by keyloggers, viruses, and other attack vectors. This risk can be mitigated by using an offline computer or by simply typing in your recovery phrase out of order and rearranging them with the mouse afterwards. Another good option would be to use a distro like [Qubes](https://www.qubes-os.org/).
 
 No matter what you do there is risk, but once encrypted your seed is pretty safe.
 
